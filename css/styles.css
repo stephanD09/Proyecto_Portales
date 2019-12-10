@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #4A2C07;
+}
+
+header{
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: 0px;    
+    padding: 1em;
+    background-color: #251A00;
+    color: white;    
+}
+
+header h1{
+line-height: 1.41em;
+text-align: center;
+display: block;
+}
+
+header nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul{
+    list-style: none;   
+    text-align: center;    
+}
+
+header nav ul li{
+   display: inline;   
+   margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+header nav a:hover{
+    background-color: #4D5B78;
+    border-color: #fff;
+  }
