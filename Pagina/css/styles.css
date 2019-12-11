@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #4A2C07;
+    background-color: #1E1000;
 }
 
 header{
@@ -10,12 +10,12 @@ header{
     position: relative;
     margin: 0px;    
     padding: 1em;
-    background-color: #251A00;
+    background-color: #120A00;
     color: white;    
 }
 
 header h1{
-line-height: 1.41em;
+line-height: 1.31em;
 text-align: center;
 display: block;
 }
@@ -33,10 +33,10 @@ header nav ul{
 header nav ul li{
    display: inline;   
    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 40px;
 }
 
 header nav a{
@@ -45,7 +45,21 @@ header nav a{
 
 }
 
-header nav a:hover{
+/*header nav a:hover{
     background-color: #4D5B78;
     border-color: #fff;
+  }*/
+
+.box1{
+    margin: 2em;
+    padding: 12.5em 1em;
+    box-shadow: 3px 3px 5px #222;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    background-image: url("../img/Doges.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
