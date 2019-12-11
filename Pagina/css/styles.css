@@ -1,65 +1,22 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color: #1E1000;
-}
-
-header{
-    height: auto;
-    width: 100%;
-    position: relative;
-    margin: 0px;    
-    padding: 1em;
-    background-color: #120A00;
-    color: white;    
-}
-
-header h1{
-line-height: 1.31em;
-text-align: center;
-display: block;
-}
-
-header nav{
-    margin: 0px;
-    padding: 0px;
-}
-
-header nav ul{
-    list-style: none;   
-    text-align: center;    
-}
-
-header nav ul li{
-   display: inline;   
-   margin-block-start: 1em;
-   margin-block-end: 1em;
-   margin-inline-start: 0px;
-   margin-inline-end: 0px;
-   padding-inline-start: 40px;
-}
-
-header nav a{
-    text-decoration: none;
-    color: #fff;
-
-}
-
-/*header nav a:hover{
-    background-color: #4D5B78;
-    border-color: #fff;
-  }*/
-
 .box1{
-    margin: 2em;
-    padding: 12.5em 1em;
-    box-shadow: 3px 3px 5px #222;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    color: #fff;
-    background-image: url("../img/Doges.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  margin: 2em;
+  padding: 12.5em 1em;
+  box-shadow: 3px 3px 5px #222;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  background-image: url("../img/lomitoprincipal.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center; 
+}
+
+@media(max-width: 480px)
+{
+  .box1{
+    background-image: url("../img/lomito.jpg");
   }
+
+}

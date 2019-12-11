@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:  #1E1000;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  header{
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: 0px;    
+    padding: 1em;
+    background-color: #120A00;
+    color: white;    
+  }
+
+  header h1{
+  line-height: 1.31em;
+  text-align: center;
+  /*display: block;*/
+  }
+
+  header nav{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  header nav ul{
+    list-style: none;   
+    text-align: center;    
+  }
+
+  header nav ul li{
+  display: inline;   
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  }
+
+  header nav a{
+    text-decoration: none;
+    color: #fff;
+
+  }
+
+  @media(max-width: 480px)
+  {    
+    
+    header{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+    }
+    
+    header nav{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+      }
+    
+      header nav ul{
+        list-style: none;   
+        text-align: center;   
+        padding: 3px 0px;
+        margin: 0px; 
+        transition: max-height 0.5s;
+        overflow: hidden;
+      }
+
+      header nav ul.hidden{
+          max-height: 0px;
+          overflow: hidden;
+      }
+
+      header h1{ 
+        padding: 0.5em;
+        margin: auto;
+        text-align: center;
+        font-size: 1.30rem;
+      }
+    
+      header nav ul li{
+        box-shadow: 0px 2px 3px #777;
+      }
+
+      header nav ul li:first-child{
+          box-shadow: 0px -2px 3px #777, 0px 2px 3px #777;
+      }
+
+      header nav ul li a {
+          display: inline-block;
+          padding: 0.50em 1em;
+          text-align: center;
+          text-decoration: none;
+          color: #fff;
+          width: 100%;
+      }
+
+      .menuh{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 0.47rem;
+          right: 0.5rem;
+          border-radius: 0.25rem;
+          box-shadow: 1px 1px 2px #522E2E;
+          box-sizing: border-box;
+          width: 32px;
+          height: 32px;
+          transition: transform 0.25s;
+      }
+
+      .menuh.show{
+        transform: rotate(180deg);
+      }
+
+      .menuh div{
+        box-sizing: border-box;
+        width: 24px;
+        height: 4px;
+        background-color: #fff;
+        border-radius: 3px;
+        margin: 1px;
+      }
+    
+      header nav a{
+        text-decoration: none;
+        color: #fff;
+    
+      }   
+  }
