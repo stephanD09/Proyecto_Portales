@@ -11,7 +11,8 @@ header{
     margin: 0px;    
     padding: 1em;
     background-color: #120A00;
-    color: white;    
+    color: white;       
+
 }
 
 header h1{
@@ -37,22 +38,24 @@ header nav ul li{
    margin-inline-start: 0px;
    margin-inline-end: 0px;
    padding-inline-start: 40px;
+   border-bottom: 1px solid #fff;
+   padding: 1px 3px;
 }
 
 header nav a{
     text-decoration: none;
     color: #fff;
-
+    padding: 1em;
 }
 
 /*header nav a:hover{
-    background-color: #4D5B78;
+    background-color: rgb(189, 189, 189);
     border-color: #fff;
   }*/
 
 .box1{
-    margin: 2em;
-    padding: 12.5em 1em;
+    margin: 3em 6em;
+    padding: 20em 0px;
     box-shadow: 3px 3px 5px #222;
     position: relative;
     overflow: hidden;
@@ -62,4 +65,27 @@ header nav a{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-size: 1.2em;
+    
+  }
+
+  section div a{
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 1em;      
+  }
+
+  section div a:hover{
+    background-color: rgb(163, 163, 163);
+    border-color: #fff;
+  }
+
+  .SobreNos{
+      background-color: #78B052  ;
+      padding: 1em 0px;
+  }
+
+  .box2{
+
   }
